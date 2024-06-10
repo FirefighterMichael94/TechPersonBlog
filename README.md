@@ -1,2 +1,0 @@
-# TechPersonBlog
-week 14
