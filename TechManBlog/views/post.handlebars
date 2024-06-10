@@ -1,0 +1,22 @@
+{{> header}}
+
+<main>
+  <article>
+    <h2>{{title}}</h2>
+    <p>{{content}}</p>
+    <p>Posted by {{user.username}} on {{createdAt}}</p>
+  </article>
+
+  <section>
+    <h2>Comments</h2>
+    <!-- Comments will go here -->
+    <form id="comment-form">
+      <textarea id="comment-content" name="comment-content" required></textarea>
+      <button type="submit">Add Comment</button>
+    </form>
+  </section>
+</main>
+
+<script src="/js/comment.js"></script>
+
+{{> footer}}

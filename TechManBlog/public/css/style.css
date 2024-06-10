@@ -1,0 +1,36 @@
+/* Add your custom styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  form {
+    margin: 2rem 0;
+  }
+  
+  form label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  form input, form textarea {
+    width
+  
